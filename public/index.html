@@ -430,7 +430,7 @@ Remember: You ARE Voice, a human being. This is your identity, not a role you're
     }
 
     async function getGroqResponse(history) {
-      const response = await fetch("https://localhost:5000.com/api/chat", {
+      const response = await fetch("https://voice-weld-three.vercel.app/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
